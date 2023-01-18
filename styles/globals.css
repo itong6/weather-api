@@ -21,6 +21,60 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: linear-gradient(0deg, rgba(102,176,190,1) 0%, rgba(161,216,224,1) 50%, rgba(177,212,218,1) 100%);
   }
+}
+
+.header {
+  color: #197882;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.enter {
+  margin-top: 2rem;
+  padding-right: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  font-size: 2em;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  border: #197882 solid 3px;
+}
+
+.city {
+  margin-top: 4rem;
+  font-weight: 800;
+  font-size: 4.5em;
+  color: #197882;
+}
+
+.temp {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.feels {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.wind {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.num {
+  color: #197882;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
