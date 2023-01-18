@@ -45,7 +45,6 @@ export default function Home() {
 
       <main className={styles.main}>
       {errorMessage}
-
         <input className="enter"
           value={location}
           onChange={(event) => setLocation(event.target.value)}
