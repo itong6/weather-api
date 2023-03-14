@@ -25,6 +25,15 @@ a {
   }
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 .header {
   color: #197882;
   font-weight: 900;
@@ -52,29 +61,100 @@ a {
 }
 
 .temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 2rem;
   font-weight: 700;
   font-size: 3em;
+  width: 400px;
+  height: 200px;
+  margin: 2rem;
+  color: #c3efff;
+  text-align: center;
+background: rgba(107, 107, 107, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .feels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 2rem;
   font-weight: 700;
   font-size: 3em;
+  width: 300px;
+  height: 200px;
+  margin: 2rem;
+  text-align: center;
+  color: #c3efff;
+  text-align: center;
+  background: rgba(107, 107, 107, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .wind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 2rem;
   font-weight: 700;
   font-size: 3em;
+  width: 300px;
+  height: 200px;
+  margin: 2rem;
+  text-align: center;
+  color: #c3efff;
+  text-align: center;
+  background: rgba(107, 107, 107, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .num {
-  color: #197882;
+  color: #ffffff;
 }
 
 .cont {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+body {
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 390px) {
+  .main {
+    height: 100%;
+  }
+  
+  .enter {
+    width: 300px;
+    padding: 1rem;
+  }
+
+  .temp {
+    width: 350px;
+  }
 }
